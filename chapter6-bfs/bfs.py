@@ -3,6 +3,7 @@
 # @Time     : 2024/2/20 21:05
 # @Author   : juhao666
 # bfs       :广度优先搜索算法
+# page 85
 
 from collections import deque
 
@@ -28,9 +29,7 @@ def search(name):
 
 
 if __name__ == '__main__':
-    graph = {"you": {"Bob", "Alice", "Claire"},
-             "Bob": {"Anuj", "Peggy"},
-             "Alice": {"Peggy"},
-             "Claire": {"Thom", "Jonny"}
-            }
+    graph = {"you": {"Bob", "Alice", "Claire"}, "Bob": {"Anuj", "Peggy"}, "Alice": {"Peggy"},
+             "Claire": {"Thom", "Jonny"}, "Anuj": [], "Peggy": [], "Thom": [], "Jonny": []}
+
     search("you")
