@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2024/2/25 13:46
 # @Author   : juhao666
+
+# (Nondeterministic Polynomially，非确定性多项式
+#  NP类问题数量很大，如完全子图问题、图着色问题、旅行商(TSP)问题等。
+
 # 相邻城市颜色不同问题
 
 def find_max_neighbours(cb):
