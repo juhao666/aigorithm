@@ -31,5 +31,6 @@ def search(name):
 if __name__ == '__main__':
     graph = {"you": {"Bob", "Alice", "Claire"}, "Bob": {"Anuj", "Peggy"}, "Alice": {"Peggy"},
              "Claire": {"Thom", "Jonny"}, "Anuj": [], "Peggy": [], "Thom": [], "Jonny": []}
+    print(graph)
 
     search("you")

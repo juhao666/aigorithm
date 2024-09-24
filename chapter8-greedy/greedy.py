@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2024/2/21 22:52
 # @Author   : juhao666
-# chapter 123 Greedy 贪婪算法
+# page 123 Greedy 贪婪算法
 
 # 用最少的电台尽可能覆盖所有州，剩下的电台就可以关闭了
 if __name__ == '__main__':
